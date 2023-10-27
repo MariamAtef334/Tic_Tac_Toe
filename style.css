@@ -1,0 +1,23 @@
+
+.Title {
+    background-color: rgb(118, 42, 165);
+    font-size: 50px;
+    color: #fff;
+}
+
+.title {
+    background-color: rgb(118, 42, 165);
+    color: #fff;
+}
+
+.container .item {
+    background-color: rgba(198, 46, 195, 0.912);
+    font-size: 50px;
+    font-weight: 500px;
+    color: #fff;
+}
+
+.container .item:hover {
+    background-color: black;
+    cursor: pointer;
+}

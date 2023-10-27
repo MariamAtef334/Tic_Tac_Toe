@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container text-center justify-content-center">
+        <div class="Title  p-2 col-md-7 mx-auto "> Tic Tac Toe Game</div>
+        <div class="title  p-2 col-md-7 mx-auto mt-3"> <span>Tic Tac Toe </span>GAME</div>
+        <div class="row mt-4 text-center justify-content-center">
+            <div class="col-md-2 item  mx-2 p-5 col-sm-2 " id="item1" onclick="game(this.id)"></div>
+            <div class="col-md-2 item  mx-4 p-5 col-sm-2" id="item2"onclick="game(this.id)"></div>
+            <div class="col-md-2 item  mx-2 p-5 col-sm-2" id="item3"onclick="game(this.id)"></div>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-2 item  mx-2 p-5" id="item4"onclick="game(this.id)"></div>
+            <div class="col-md-2 item  mx-4 p-5" id="item5"onclick="game(this.id)"></div>
+            <div class="col-md-2 item  mx-2 p-5" id="item6"onclick="game(this.id)"></div>
+        </div>
+
+        
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-2 item  mx-2 p-5" id="item7"onclick="game(this.id)"></div>
+            <div class="col-md-2 item  mx-4 p-5" id="item8"onclick="game(this.id)"></div>
+            <div class="col-md-2 item  mx-2 p-5" id="item9"onclick="game(this.id)"></div>
+        </div>
+        <div class="btn btn-outline-dark  mt-5 restart" onclick=" reset();">Restart</div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
